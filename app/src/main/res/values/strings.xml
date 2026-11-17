@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">Hesab ham</string>
+
+
+    <!-- ========== General ========== -->
+    <string name="action_next">Next</string>
+    <string name="action_start_tracking">Start Tracking</string>
+    <string name="action_get_started">Get Started</string>
+
+    <!-- ========== Step 1: Welcome ========== -->
+    <string name="onboarding_welcome_title">Welcome to mindful money management</string>
+    <string name="onboarding_welcome_message">
+        Don’t restrict your money — understand it.
+        Tracking expenses is the first step to real control.
+    </string>
+
+    <string name="onboarding_language_title">Choose your language</string>
+    <string name="onboarding_language_message">Select the language you are comfortable with. You can change it anytime later from settings</string>
+
+    <string name="onboarding_calendar_title">Choose your calendar</string>
+    <string name="onboarding_calendar_message">Pick the calendar system you prefer for dates and reports, This help keeps your records clear and familiar</string>
+    <!-- ========== Step 2: af.amir.hesabham.presentation.hesabham.screens.home.compenents.Account Name ========== -->
+    <string name="onboarding_account_name_title">What should we call this account?</string>
+    <string name="onboarding_account_name_message">
+        You can create multiple accounts,
+        like cash, bank, or wallet.
+    </string>
+    <string name="onboarding_account_hint">Account name</string>
+    <string name="onboarding_account_placeholder">Main wallet</string>
+    <string name="onboarding_account_error">
+        Please enter a name
+    </string>
+
+    <!-- ========== Step 3: Initial Balance ========== -->
+    <string name="onboarding_balance_title">Initial balance</string>
+    <string name="onboarding_balance_message">
+        How much money do you have right now?
+        You can always adjust this later.
+    </string>
+    <string name="onboarding_balance_hint">Balance</string>
+    <string name="onboarding_balance_placeholder">e.g. 12,500</string>
+
+    <!-- ========== Step 4: Currency ========== -->
+    <string name="onboarding_currency_title">Base currency</string>
+    <string name="onboarding_currency_message">
+        All calculations and reports will use this currency.
+    </string>
+    <string name="onboarding_currency_select">Select currency</string>
+
+    <!-- ========== Step 5: Summary ========== -->
+    <string name="onboarding_summary_title">You’re all set</string>
+    <string name="onboarding_summary_message">
+        You’re ready to start tracking expenses
+        and understanding your spending patterns.
+    </string>
+
+    <!-- ========== Accessibility / UX ========== -->
+    <string name="cancel">Cancel</string>
+    <string name="error_decimal_already_exist">You can only add one decimal point</string>
+    <string name="error_unexpected">An unexpected error occurred</string>
+    <string name="error_divide_by_zero">Division by zero is not allowed</string>
+    <string name="error_negative_error">Amount cannot be negative</string>
+    <string name="jalali">Jalali</string>
+    <string name="Gregorian">Gregorian</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="transfer">Transfer</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="category">Category</string>
+    <string name="comment">Comment</string>
+    <string name="accounts">Accounts</string>
+    <string name="date">Date</string>
+    <string name="category_dropdown_edit">Edit</string>
+    <string name="category_dropdown_delete">Delete</string>
+
+
+    <!-- Expense Headers -->
+    <string name="category_food">Food</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_home">Home</string>
+    <string name="category_health">Health</string>
+    <string name="category_finance">Finance</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_education">Education</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_family">Family</string>
+    <string name="category_gifts">Gifts</string>
+    <string name="category_subscriptions">Subscriptions</string>
+
+    <!-- Expense Subcategories -->
+    <string name="category_restaurant">Restaurant</string>
+    <string name="category_cafe">Cafe</string>
+    <string name="category_groceries">Groceries</string>
+    <string name="category_fastfood">Fast Food</string>
+    <string name="category_fuel">Fuel</string>
+    <string name="category_public_transport">Public Transport</string>
+    <string name="category_taxi">Taxi</string>
+    <string name="category_vehicle_maintenance">Vehicle Maintenance</string>
+    <string name="category_rent">Rent</string>
+    <string name="category_electricity">Electricity</string>
+    <string name="category_water">Water</string>
+    <string name="category_internet">Internet</string>
+    <string name="category_home_maintenance">Home Maintenance</string>
+    <string name="category_doctor">Doctor</string>
+    <string name="category_pharmacy">Pharmacy</string>
+    <string name="category_insurance">Insurance</string>
+    <string name="category_dental">Dental</string>
+    <string name="category_tax">Tax</string>
+    <string name="category_bank_fees">Bank Fees</string>
+    <string name="category_loan_payment">Loan Payment</string>
+    <string name="category_clothes">Clothes</string>
+    <string name="category_electronics">Electronics</string>
+    <string name="category_home_goods">Home Goods</string>
+    <string name="category_movies">Movies</string>
+    <string name="category_games">Games</string>
+    <string name="category_events">Events</string>
+    <string name="category_tuition">Tuition</string>
+    <string name="category_books">Books</string>
+    <string name="category_courses">Courses</string>
+    <string name="category_flight">Flight</string>
+    <string name="category_hotel">Hotel</string>
+    <string name="category_travel_transport">Travel Transport</string>
+    <string name="category_childcare">Childcare</string>
+    <string name="category_allowance">Allowance</string>
+    <string name="category_birthday_gift">Birthday Gift</string>
+    <string name="category_wedding_gift">Wedding Gift</string>
+    <string name="category_streaming">Streaming</string>
+    <string name="category_software">Software</string>
+
+    <!-- Income -->
+    <string name="category_salary">Salary</string>
+    <string name="category_business">Business</string>
+    <string name="category_investment">Investment</string>
+    <string name="category_other_income">Other Income</string>
+    <string name="category_monthly_salary">Monthly Salary</string>
+    <string name="category_bonus">Bonus</string>
+    <string name="category_overtime">Overtime</string>
+    <string name="category_sales">Sales</string>
+    <string name="category_services">Services</string>
+    <string name="category_dividends">Dividends</string>
+    <string name="category_crypto">Crypto</string>
+    <string name="category_gift_income">Gift</string>
+    <string name="category_refund">Refund</string>
+    <string name="add">Add</string>
+    <string name="confirm">confirm</string>
+    <string name="Done">Done</string>
+    <string name="comment_dialog_placeholder">"Enter something ... "</string>
+    <string name="date_picker_dialog_title">Select Your Date</string>
+    <string name="account_picker_dialog_title">Select your account</string>
+    <string name="category_dialog_subtitle">Select your desired category</string>
+    <string name="save">Save</string>
+    <string name="add_category_name_and_icon">Catetgory name and icon</string>
+    <string name="add_category_placeholder_exaple">Example: Transportation</string>
+    <string name="add_category_category_type">Category type</string>
+    <string name="add_category_parent">Parent category</string>
+    <string name="add_category_color">Category color</string>
+    <string name="add_category_save_button">Save category</string>
+    <string name="account_dialog_subtitle">Select your desired account</string>
+    <string name="account_type_cash">Cash</string>
+    <string name="account_type_bank">Bank</string>
+    <string name="account_type_card">Card</string>
+    <string name="account_type_saving">Saving</string>
+    <string name="account_type_digital_wallet">Digital Wallet</string>
+    <string name="account_type_other">Other</string>
+    <string name="drop_down_choose_label">Select</string>
+    <string name="onboarding_account_type_message">"Select the type of account you want to create.\nYou can change it later if needed. "</string>
+    <string name="onboarding_account_type_title">Account Type</string>
+    <string name="account">Account</string>
+    <string name="categories">Categories</string>
+    <string name="account_editor_account_name">Account name</string>
+    <string name="account_editor_account_type">Account type</string>
+    <string name="account_editor_initial_amount">Initial amount</string>
+    <string name="title_cant_be_empty_error">Title can not be empty</string>
+
+    <string name="error_empty_amount">Amount cannot be empty</string>
+    <string name="error_select_account">Please select an account</string>
+    <string name="error_select_category">Please select a category</string>
+    <string name="error_select_to_account">Please select the destination account</string>
+    <string name="error_select_from_account">Please select the source account</string>
+    <string name="error_same_account">Source and destination cannot be the same</string>
+    <string name="from_account">From Account</string>
+    <string name="to_account">To account</string>
+    <string name="amout_input_bottomsheet_bottom_text">Confirm and save</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="new_account">New Account</string>
+    <string name="new_category">New Category</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="total_balance">Total balance</string>
+    <string name="balance_for_this_month">Balance for this month</string>
+    <string name="other">Other</string>
+    <string name="my_accounts">My Accounts</string>
+    <string name="view_all">View all</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="this_month_expenses">This month\'s expenses</string>
+    <string name="view_full_report">View full report</string>
+    <string name="overall_report">Overall report</string>
+    <string name="all">All</string>
+    <string name="accounts_list">Accounts list</string>
+    <string name="default_text">Default</string>
+    <string name="highest_balance">Highest balance</string>
+    <string name="lowest_balance">Lowest balance</string>
+    <string name="account_name">Account name</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="account_empty_state_title">No accounts added yet</string>
+    <string name="accounts_empty_state_description">To manage transaction and check your balance, add your first back account or wallet in this category.</string>
+    <string name="transactions">Transactions</string>
+    <string name="filter_transaction">Filter transactions</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="date_range">Date Range</string>
+    <string name="apply_filter">Apply filter</string>
+    <string name="invalid_date_range">Invalid date range</string>
+    <string name="transaction_detail">Transaction detail</string>
+    <string name="no_comment">No comment</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="delete">Delete</string>
+    <string name="delete_transaction">Delete Transaction</string>
+    <string name="delete_transaction_message">Are you sure you want to delete this Transaction?\nThis action can not be undone.</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="custom">Custom</string>
+    <string name="transactions_empty_state_title">No results found!</string>
+    <string name="transactions_empty_state_subtitle">No transactions match the applied filters, Try changing the date range or category.</string>
+    <string name="reports_chart_empty_title">No Chart Data</string>
+    <string name="reports_chart_empty_subtitle">There are not enough transactions in this date range to display the Chart</string>
+    <string name="top_transactions">Top Transactions</string>
+    <string name="reports_top_expenses_empty_title">No expenses recorded</string>
+    <string name="reports_top_incomes_empty_title">No income recorded</string>
+    <string name="reports_top_transactions_empty_subtitle">Add a new transaction to display the top items</string>
+    <string name="from_date">From</string>
+    <string name="to_date">To</string>
+    <string name="transactions_distribution"><![CDATA[Transactions distribution & details]]></string>
+    <string name="total_expenses">Total expenses</string>
+    <string name="of_total">Of total</string>
+    <string name="number_of_transactions">Number of transactions :</string>
+    <string name="daily_average">Daily average:</string>
+    <string name="period_balance">Period balance</string>
+    <string name="setting">Setting</string>
+    <string name="currency">Currency</string>
+    <string name="language">Language</string>
+    <string name="calendar">Calendar</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="general">General</string>
+    <string name="appearance">Appearance</string>
+    <string name="dashboard_empty_state">No recent transactions have been recorded</string>
+    <string name="select">Select</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="account_archive_warning">Are you sure you want to archive this account?\nIt will no longer be available for new transactions, but its financial history will be preserved.</string>
+    <string name="category_archive_warning">Are you sure you want to archive this Category?\nIt will no longer be available for new transactions, but its financial history will be preserved.</string>
+    <string name="archive">Archive</string>
+    <string name="archived">Archived</string>
+    <string name="archived_accounts">Archived Accounts</string>
+    <string name="archived_categories">Archived Categories</string>
+    <string name="new_account_title_place_holder">e.g., Checking Account …</string>
+    <string name="none">None</string>
+
+</resources>

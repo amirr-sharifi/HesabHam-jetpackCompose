@@ -1,0 +1,62 @@
+[
+  {
+    "code": "USD",
+    "symbol": "$",
+    "fractionDigits": 2
+  },
+  {
+    "code": "EUR",
+    "symbol": "€",
+    "fractionDigits": 2
+  },
+  {
+    "code": "GBP",
+    "symbol": "£",
+    "fractionDigits": 2
+  },
+  {
+    "code": "IRR",
+    "symbol": "﷼",
+    "fractionDigits": 0
+  },
+  {
+    "code": "AFN",
+    "symbol": "؋",
+    "fractionDigits": 2
+  },
+  {
+    "code": "JPY",
+    "symbol": "¥",
+    "fractionDigits": 0
+  },
+  {
+    "code": "CNY",
+    "symbol": "¥",
+    "fractionDigits": 2
+  },
+  {
+    "code": "INR",
+    "symbol": "₹",
+    "fractionDigits": 2
+  },
+  {
+    "code": "TRY",
+    "symbol": "₺",
+    "fractionDigits": 2
+  },
+  {
+    "code": "AED",
+    "symbol": "د.إ",
+    "fractionDigits": 2
+  },
+  {
+    "code": "SAR",
+    "symbol": "﷼",
+    "fractionDigits": 2
+  },
+  {
+    "code": "KWD",
+    "symbol": "د.ك",
+    "fractionDigits": 3
+  }
+]

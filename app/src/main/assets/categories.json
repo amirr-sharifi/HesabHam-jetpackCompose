@@ -1,0 +1,635 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "expense_food",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_food",
+      "iconName": "Restaurant",
+      "color": "#F4511E",
+      "order": 1,
+      "isDefault": true
+    },
+    {
+      "id": "expense_transport",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_transport",
+      "iconName": "DirectionsCar",
+      "color": "#1E88E5",
+      "order": 2,
+      "isDefault": true
+    },
+    {
+      "id": "expense_home",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_home",
+      "iconName": "Home",
+      "color": "#00897B",
+      "order": 3,
+      "isDefault": true
+    },
+    {
+      "id": "expense_health",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_health",
+      "iconName": "LocalHospital",
+      "color": "#E53935",
+      "order": 4,
+      "isDefault": true
+    },
+    {
+      "id": "expense_finance",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_finance",
+      "iconName": "AccountBalance",
+      "color": "#3949AB",
+      "order": 5,
+      "isDefault": true
+    },
+    {
+      "id": "expense_shopping",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_shopping",
+      "iconName": "ShoppingBag",
+      "color": "#8E24AA",
+      "order": 6,
+      "isDefault": true
+    },
+    {
+      "id": "expense_entertainment",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_entertainment",
+      "iconName": "Movie",
+      "color": "#FFB300",
+      "order": 7,
+      "isDefault": true
+    },
+    {
+      "id": "expense_education",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_education",
+      "iconName": "School",
+      "color": "#039BE5",
+      "order": 8,
+      "isDefault": true
+    },
+    {
+      "id": "expense_travel",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_travel",
+      "iconName": "Flight",
+      "color": "#00ACC1",
+      "order": 9,
+      "isDefault": true
+    },
+    {
+      "id": "expense_family",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_family",
+      "iconName": "People",
+      "color": "#D81B60",
+      "order": 10,
+      "isDefault": true
+    },
+    {
+      "id": "expense_gifts",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_gifts",
+      "iconName": "CardGiftcard",
+      "color": "#FB8C00",
+      "order": 11,
+      "isDefault": true
+    },
+    {
+      "id": "expense_subscriptions",
+      "parentId": null,
+      "type": "EXPENSE",
+      "nameResKey": "category_subscriptions",
+      "iconName": "Subscriptions",
+      "color": "#546E7A",
+      "order": 12,
+      "isDefault": true
+    },
+    {
+      "id": "expense_food_restaurant",
+      "parentId": "expense_food",
+      "type": "EXPENSE",
+      "nameResKey": "category_restaurant",
+      "iconName": "RestaurantMenu",
+      "color": "#FF7043",
+      "order": 1,
+      "isDefault": true
+    },
+    {
+      "id": "expense_food_cafe",
+      "parentId": "expense_food",
+      "type": "EXPENSE",
+      "nameResKey": "category_cafe",
+      "iconName": "LocalCafe",
+      "color": "#FF8A65",
+      "order": 2,
+      "isDefault": true
+    },
+    {
+      "id": "expense_food_groceries",
+      "parentId": "expense_food",
+      "type": "EXPENSE",
+      "nameResKey": "category_groceries",
+      "iconName": "LocalGroceryStore",
+      "color": "#FFAB91",
+      "order": 3,
+      "isDefault": true
+    },
+    {
+      "id": "expense_food_fastfood",
+      "parentId": "expense_food",
+      "type": "EXPENSE",
+      "nameResKey": "category_fastfood",
+      "iconName": "LunchDining",
+      "color": "#FFCCBC",
+      "order": 4,
+      "isDefault": true
+    },
+    {
+      "id": "expense_transport_fuel",
+      "parentId": "expense_transport",
+      "type": "EXPENSE",
+      "nameResKey": "category_fuel",
+      "iconName": "LocalGasStation",
+      "color": "#42A5F5",
+      "order": 5,
+      "isDefault": true
+    },
+    {
+      "id": "expense_transport_public",
+      "parentId": "expense_transport",
+      "type": "EXPENSE",
+      "nameResKey": "category_public_transport",
+      "iconName": "DirectionsBus",
+      "color": "#64B5F6",
+      "order": 6,
+      "isDefault": true
+    },
+    {
+      "id": "expense_transport_taxi",
+      "parentId": "expense_transport",
+      "type": "EXPENSE",
+      "nameResKey": "category_taxi",
+      "iconName": "LocalTaxi",
+      "color": "#90CAF9",
+      "order": 7,
+      "isDefault": true
+    },
+    {
+      "id": "expense_transport_maintenance",
+      "parentId": "expense_transport",
+      "type": "EXPENSE",
+      "nameResKey": "category_vehicle_maintenance",
+      "iconName": "Build",
+      "color": "#BBDEFB",
+      "order": 8,
+      "isDefault": true
+    },
+    {
+      "id": "expense_home_rent",
+      "parentId": "expense_home",
+      "type": "EXPENSE",
+      "nameResKey": "category_rent",
+      "iconName": "Apartment",
+      "color": "#26A69A",
+      "order": 9,
+      "isDefault": true
+    },
+    {
+      "id": "expense_home_electricity",
+      "parentId": "expense_home",
+      "type": "EXPENSE",
+      "nameResKey": "category_electricity",
+      "iconName": "Bolt",
+      "color": "#4DB6AC",
+      "order": 10,
+      "isDefault": true
+    },
+    {
+      "id": "expense_home_water",
+      "parentId": "expense_home",
+      "type": "EXPENSE",
+      "nameResKey": "category_water",
+      "iconName": "WaterDrop",
+      "color": "#80CBC4",
+      "order": 11,
+      "isDefault": true
+    },
+    {
+      "id": "expense_home_internet",
+      "parentId": "expense_home",
+      "type": "EXPENSE",
+      "nameResKey": "category_internet",
+      "iconName": "Wifi",
+      "color": "#B2DFDB",
+      "order": 12,
+      "isDefault": true
+    },
+    {
+      "id": "expense_home_maintenance",
+      "parentId": "expense_home",
+      "type": "EXPENSE",
+      "nameResKey": "category_home_maintenance",
+      "iconName": "HomeRepairService",
+      "color": "#E0F2F1",
+      "order": 13,
+      "isDefault": true
+    },
+    {
+      "id": "expense_health_doctor",
+      "parentId": "expense_health",
+      "type": "EXPENSE",
+      "nameResKey": "category_doctor",
+      "iconName": "MedicalServices",
+      "color": "#EF5350",
+      "order": 14,
+      "isDefault": true
+    },
+    {
+      "id": "expense_health_pharmacy",
+      "parentId": "expense_health",
+      "type": "EXPENSE",
+      "nameResKey": "category_pharmacy",
+      "iconName": "LocalPharmacy",
+      "color": "#E57373",
+      "order": 15,
+      "isDefault": true
+    },
+    {
+      "id": "expense_health_insurance",
+      "parentId": "expense_health",
+      "type": "EXPENSE",
+      "nameResKey": "category_insurance",
+      "iconName": "HealthAndSafety",
+      "color": "#EF9A9A",
+      "order": 16,
+      "isDefault": true
+    },
+    {
+      "id": "expense_health_dental",
+      "parentId": "expense_health",
+      "type": "EXPENSE",
+      "nameResKey": "category_dental",
+      "iconName": "MedicalInformation",
+      "color": "#FFCDD2",
+      "order": 17,
+      "isDefault": true
+    },
+    {
+      "id": "expense_finance_tax",
+      "parentId": "expense_finance",
+      "type": "EXPENSE",
+      "nameResKey": "category_tax",
+      "iconName": "ReceiptLong",
+      "color": "#5C6BC0",
+      "order": 18,
+      "isDefault": true
+    },
+    {
+      "id": "expense_finance_fees",
+      "parentId": "expense_finance",
+      "type": "EXPENSE",
+      "nameResKey": "category_bank_fees",
+      "iconName": "AccountBalanceWallet",
+      "color": "#7986CB",
+      "order": 19,
+      "isDefault": true
+    },
+    {
+      "id": "expense_finance_loan_payment",
+      "parentId": "expense_finance",
+      "type": "EXPENSE",
+      "nameResKey": "category_loan_payment",
+      "iconName": "Payments",
+      "color": "#9FA8DA",
+      "order": 20,
+      "isDefault": true
+    },
+    {
+      "id": "expense_shopping_clothes",
+      "parentId": "expense_shopping",
+      "type": "EXPENSE",
+      "nameResKey": "category_clothes",
+      "iconName": "Checkroom",
+      "color": "#AB47BC",
+      "order": 21,
+      "isDefault": true
+    },
+    {
+      "id": "expense_shopping_electronics",
+      "parentId": "expense_shopping",
+      "type": "EXPENSE",
+      "nameResKey": "category_electronics",
+      "iconName": "Devices",
+      "color": "#BA68C8",
+      "order": 22,
+      "isDefault": true
+    },
+    {
+      "id": "expense_shopping_home_goods",
+      "parentId": "expense_shopping",
+      "type": "EXPENSE",
+      "nameResKey": "category_home_goods",
+      "iconName": "Weekend",
+      "color": "#CE93D8",
+      "order": 23,
+      "isDefault": true
+    },
+    {
+      "id": "expense_entertainment_movies",
+      "parentId": "expense_entertainment",
+      "type": "EXPENSE",
+      "nameResKey": "category_movies",
+      "iconName": "Theaters",
+      "color": "#FFCA28",
+      "order": 24,
+      "isDefault": true
+    },
+    {
+      "id": "expense_entertainment_games",
+      "parentId": "expense_entertainment",
+      "type": "EXPENSE",
+      "nameResKey": "category_games",
+      "iconName": "SportsEsports",
+      "color": "#FFD54F",
+      "order": 25,
+      "isDefault": true
+    },
+    {
+      "id": "expense_entertainment_events",
+      "parentId": "expense_entertainment",
+      "type": "EXPENSE",
+      "nameResKey": "category_events",
+      "iconName": "Event",
+      "color": "#FFE082",
+      "order": 26,
+      "isDefault": true
+    },
+    {
+      "id": "expense_education_tuition",
+      "parentId": "expense_education",
+      "type": "EXPENSE",
+      "nameResKey": "category_tuition",
+      "iconName": "School",
+      "color": "#29B6F6",
+      "order": 27,
+      "isDefault": true
+    },
+    {
+      "id": "expense_education_books",
+      "parentId": "expense_education",
+      "type": "EXPENSE",
+      "nameResKey": "category_books",
+      "iconName": "MenuBook",
+      "color": "#4FC3F7",
+      "order": 28,
+      "isDefault": true
+    },
+    {
+      "id": "expense_education_courses",
+      "parentId": "expense_education",
+      "type": "EXPENSE",
+      "nameResKey": "category_courses",
+      "iconName": "CastForEducation",
+      "color": "#81D4FA",
+      "order": 29,
+      "isDefault": true
+    },
+    {
+      "id": "expense_travel_flight",
+      "parentId": "expense_travel",
+      "type": "EXPENSE",
+      "nameResKey": "category_flight",
+      "iconName": "Flight",
+      "color": "#26C6DA",
+      "order": 30,
+      "isDefault": true
+    },
+    {
+      "id": "expense_travel_hotel",
+      "parentId": "expense_travel",
+      "type": "EXPENSE",
+      "nameResKey": "category_hotel",
+      "iconName": "Hotel",
+      "color": "#4DD0E1",
+      "order": 31,
+      "isDefault": true
+    },
+    {
+      "id": "expense_travel_transport",
+      "parentId": "expense_travel",
+      "type": "EXPENSE",
+      "nameResKey": "category_travel_transport",
+      "iconName": "DirectionsTransit",
+      "color": "#80DEEA",
+      "order": 32,
+      "isDefault": true
+    },
+    {
+      "id": "expense_family_childcare",
+      "parentId": "expense_family",
+      "type": "EXPENSE",
+      "nameResKey": "category_childcare",
+      "iconName": "ChildCare",
+      "color": "#EC407A",
+      "order": 33,
+      "isDefault": true
+    },
+    {
+      "id": "expense_family_allowance",
+      "parentId": "expense_family",
+      "type": "EXPENSE",
+      "nameResKey": "category_allowance",
+      "iconName": "Savings",
+      "color": "#F06292",
+      "order": 34,
+      "isDefault": true
+    },
+    {
+      "id": "expense_gifts_birthday",
+      "parentId": "expense_gifts",
+      "type": "EXPENSE",
+      "nameResKey": "category_birthday_gift",
+      "iconName": "Cake",
+      "color": "#FFA726",
+      "order": 35,
+      "isDefault": true
+    },
+    {
+      "id": "expense_gifts_wedding",
+      "parentId": "expense_gifts",
+      "type": "EXPENSE",
+      "nameResKey": "category_wedding_gift",
+      "iconName": "Celebration",
+      "color": "#FFB74D",
+      "order": 36,
+      "isDefault": true
+    },
+    {
+      "id": "expense_subscriptions_streaming",
+      "parentId": "expense_subscriptions",
+      "type": "EXPENSE",
+      "nameResKey": "category_streaming",
+      "iconName": "LiveTv",
+      "color": "#78909C",
+      "order": 37,
+      "isDefault": true
+    },
+    {
+      "id": "expense_subscriptions_software",
+      "parentId": "expense_subscriptions",
+      "type": "EXPENSE",
+      "nameResKey": "category_software",
+      "iconName": "Code",
+      "color": "#90A4AE",
+      "order": 38,
+      "isDefault": true
+    },
+    {
+      "id": "income_salary",
+      "parentId": null,
+      "type": "INCOME",
+      "nameResKey": "category_salary",
+      "iconName": "Payments",
+      "color": "#43A047",
+      "order": 1,
+      "isDefault": true
+    },
+    {
+      "id": "income_business",
+      "parentId": null,
+      "type": "INCOME",
+      "nameResKey": "category_business",
+      "iconName": "BusinessCenter",
+      "color": "#5E35B1",
+      "order": 2,
+      "isDefault": true
+    },
+    {
+      "id": "income_investment",
+      "parentId": null,
+      "type": "INCOME",
+      "nameResKey": "category_investment",
+      "iconName": "ShowChart",
+      "color": "#7CB342",
+      "order": 3,
+      "isDefault": true
+    },
+    {
+      "id": "income_other",
+      "parentId": null,
+      "type": "INCOME",
+      "nameResKey": "category_other_income",
+      "iconName": "AccountBalanceWallet",
+      "color": "#6D4C41",
+      "order": 4,
+      "isDefault": true
+    },
+    {
+      "id": "income_salary_monthly",
+      "parentId": "income_salary",
+      "type": "INCOME",
+      "nameResKey": "category_monthly_salary",
+      "iconName": "CalendarMonth",
+      "color": "#66BB6A",
+      "order": 39,
+      "isDefault": true
+    },
+    {
+      "id": "income_salary_bonus",
+      "parentId": "income_salary",
+      "type": "INCOME",
+      "nameResKey": "category_bonus",
+      "iconName": "TrendingUp",
+      "color": "#81C784",
+      "order": 40,
+      "isDefault": true
+    },
+    {
+      "id": "income_salary_overtime",
+      "parentId": "income_salary",
+      "type": "INCOME",
+      "nameResKey": "category_overtime",
+      "iconName": "Schedule",
+      "color": "#A5D6A7",
+      "order": 41,
+      "isDefault": true
+    },
+    {
+      "id": "income_business_sales",
+      "parentId": "income_business",
+      "type": "INCOME",
+      "nameResKey": "category_sales",
+      "iconName": "PointOfSale",
+      "color": "#7E57C2",
+      "order": 42,
+      "isDefault": true
+    },
+    {
+      "id": "income_business_services",
+      "parentId": "income_business",
+      "type": "INCOME",
+      "nameResKey": "category_services",
+      "iconName": "DesignServices",
+      "color": "#9575CD",
+      "order": 43,
+      "isDefault": true
+    },
+    {
+      "id": "income_investment_dividends",
+      "parentId": "income_investment",
+      "type": "INCOME",
+      "nameResKey": "category_dividends",
+      "iconName": "StackedLineChart",
+      "color": "#9CCC65",
+      "order": 44,
+      "isDefault": true
+    },
+    {
+      "id": "income_investment_crypto",
+      "parentId": "income_investment",
+      "type": "INCOME",
+      "nameResKey": "category_crypto",
+      "iconName": "CurrencyBitcoin",
+      "color": "#AED581",
+      "order": 45,
+      "isDefault": true
+    },
+    {
+      "id": "income_other_gift",
+      "parentId": "income_other",
+      "type": "INCOME",
+      "nameResKey": "category_gift_income",
+      "iconName": "Redeem",
+      "color": "#8D6E63",
+      "order": 46,
+      "isDefault": true
+    },
+    {
+      "id": "income_other_refund",
+      "parentId": "income_other",
+      "type": "INCOME",
+      "nameResKey": "category_refund",
+      "iconName": "Replay",
+      "color": "#A1887F",
+      "order": 47,
+      "isDefault": true
+    }
+  ]
+}

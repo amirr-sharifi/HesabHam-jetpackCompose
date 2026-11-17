@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========== General ========== -->
+    <string name="action_next">ادامه</string>
+    <string name="action_start_tracking">شروع مدیریت</string>
+
+    <!-- ========== Step 1: Welcome ========== -->
+    <string name="onboarding_welcome_title">به مدیریت آگاهانه خوش آمدی</string>
+    <string name="onboarding_welcome_message">
+        پولت را محدود نکن، آن را بشناس.
+        ثبت خرج‌ها اولین قدم برای کنترل واقعی است.
+    </string>
+
+    <!-- ========== Step 2: af.amir.hesabham.presentation.hesabham.screens.home.compenents.Account Name ========== -->
+    <string name="onboarding_account_name_title">این حساب را چه صدا کنیم؟</string>
+    <string name="onboarding_account_name_message">
+        می‌توانی چند حساب مختلف داشته باشی.
+        مثلاً پول نقد، حساب بانکی یا کیف پول.
+    </string>
+    <string name="onboarding_account_hint">نام حساب</string>
+    <string name="onboarding_account_placeholder">کیف پول اصلی</string>
+    <string name="onboarding_account_error">
+        لطفاً یک نام وارد کن
+    </string>
+
+    <!-- ========== Step 3: Initial Balance ========== -->
+    <string name="onboarding_balance_title">موجودی اولیه</string>
+    <string name="onboarding_balance_message">
+        الان چقدر پول در این حساب داری؟
+        اگر مطمئن نیستی، بعداً می‌توانی اصلاحش کنی.
+    </string>
+    <string name="onboarding_balance_hint">موجودی</string>
+    <string name="onboarding_balance_placeholder">مثلاً 12,500,000</string>
+
+    <!-- ========== Step 4: Currency ========== -->
+    <string name="onboarding_currency_title">ارز اصلی</string>
+    <string name="onboarding_currency_message">
+        تمام گزارش‌ها و محاسبات بر اساس این ارز انجام می‌شود.
+    </string>
+    <string name="onboarding_currency_select">انتخاب ارز</string>
+
+    <!-- ========== Step 5: Summary ========== -->
+    <string name="onboarding_summary_title">همه‌چیز آماده است</string>
+    <string name="onboarding_summary_message">
+        از این به بعد می‌توانی خرج‌هایت را ثبت کنی
+        و الگوهای مالی خودت را ببینی.
+    </string>
+
+
+    <string name="cancel">لغو</string>
+    <string name="error_decimal_already_exist">امکان وارد کردن بیش از یک ممیز وجود ندارد</string>
+    <string name="error_unexpected">خطای غیرمنتظره رخ داد</string>
+    <string name="error_divide_by_zero">تقسیم بر صفر امکان پذیر نیست</string>
+    <string name="error_negative_error">مبلغ نمی تواند منفی باشد</string>
+    <string name="app_name">Hesab ham</string>
+    <string name="onboarding_language_title">انتخاب زبان</string>
+    <string name="onboarding_language_message">زبانی را انتخاب کنید که با آن راحت تر هستید. در هر زمان می توانید از تنظیمات آن را تغییر دهید</string>
+    <string name="onboarding_calendar_title">انتخاب تقویم</string>
+    <string name="onboarding_calendar_message">سیستم تقویمی مورد نظر خود را برای نمایش تاریخ ها و گزارش ها انتخاب کنید. ایت انتخاب باعث میشود اطلاعات شما خواناتر و دقیق تر باشد.</string>
+    <string name="action_get_started">شروع کنید</string>
+    <string name="jalali">شمسی</string>
+    <string name="Gregorian">میلادی</string>
+    <string name="add_transaction">تراکنش جدید</string>
+    <string name="expense">هزینه</string>
+    <string name="income">درآمد</string>
+    <string name="transfer">انتقال</string>
+    <string name="enter_amount">مقدار را وارد کنید</string>
+    <string name="category">دسته بندی</string>
+    <string name="accounts">حساب ها</string>
+    <string name="date">تاریخ</string>
+    <string name="category_dropdown_edit">ویرایش</string>
+    <string name="category_dropdown_delete">حذف</string>
+
+
+    <string name="category_food">غذا</string>
+    <string name="category_transport">حمل و نقل</string>
+    <string name="category_home">خانه</string>
+    <string name="category_health">سلامتی</string>
+    <string name="category_finance">مالی</string>
+    <string name="category_shopping">خرید</string>
+    <string name="category_entertainment">سرگرمی</string>
+    <string name="category_education">آموزش</string>
+    <string name="category_travel">سفر</string>
+    <string name="category_family">خانواده</string>
+    <string name="category_gifts">هدایا</string>
+    <string name="category_subscriptions">اشتراک‌ها</string>
+
+    <string name="category_restaurant">رستوران</string>
+    <string name="category_cafe">کافه</string>
+    <string name="category_groceries">سوپرمارکت</string>
+    <string name="category_fastfood">فست فود</string>
+    <string name="category_fuel">سوخت</string>
+    <string name="category_public_transport">حمل و نقل عمومی</string>
+    <string name="category_taxi">تاکسی</string>
+    <string name="category_vehicle_maintenance">تعمیر خودرو</string>
+    <string name="category_rent">اجاره</string>
+    <string name="category_electricity">برق</string>
+    <string name="category_water">آب</string>
+    <string name="category_internet">اینترنت</string>
+    <string name="category_home_maintenance">تعمیرات خانه</string>
+    <string name="category_doctor">دکتر</string>
+    <string name="category_pharmacy">داروخانه</string>
+    <string name="category_insurance">بیمه</string>
+    <string name="category_dental">دندانپزشکی</string>
+    <string name="category_tax">مالیات</string>
+    <string name="category_bank_fees">کارمزد بانکی</string>
+    <string name="category_loan_payment">پرداخت وام</string>
+    <string name="category_clothes">لباس</string>
+    <string name="category_electronics">الکترونیک</string>
+    <string name="category_home_goods">لوازم خانه</string>
+    <string name="category_movies">فیلم</string>
+    <string name="category_games">بازی</string>
+    <string name="category_events">رویداد</string>
+    <string name="category_tuition">شهریه</string>
+    <string name="category_books">کتاب</string>
+    <string name="category_courses">دوره‌ها</string>
+    <string name="category_flight">پرواز</string>
+    <string name="category_hotel">هتل</string>
+    <string name="category_travel_transport">حمل و نقل سفر</string>
+    <string name="category_childcare">نگهداری کودک</string>
+    <string name="category_allowance">کمک هزینه</string>
+    <string name="category_birthday_gift">هدیه تولد</string>
+    <string name="category_wedding_gift">هدیه عروسی</string>
+    <string name="category_streaming">استریمینگ</string>
+    <string name="category_software">نرم افزار</string>
+
+    <string name="category_salary">حقوق</string>
+    <string name="category_business">کسب و کار</string>
+    <string name="category_investment">سرمایه گذاری</string>
+    <string name="category_other_income">سایر درآمدها</string>
+    <string name="category_monthly_salary">حقوق ماهیانه</string>
+    <string name="category_bonus">پاداش</string>
+    <string name="category_overtime">اضافه کاری</string>
+    <string name="category_sales">فروش</string>
+    <string name="category_services">خدمات</string>
+    <string name="category_dividends">سود سهام</string>
+    <string name="category_crypto">ارز دیجیتال</string>
+    <string name="category_gift_income">هدیه</string>
+    <string name="category_refund">بازگشت وجه</string>
+
+
+    <string name="add">افزودن</string>
+    <string name="confirm">ادامه</string>
+    <string name="comment">یادداشت</string>
+    <string name="Done">انجام شد</string>
+    <string name="comment_dialog_placeholder">"چیزی وارد کنید ..."</string>
+    <string name="date_picker_dialog_title">تاریخ خود را انتخاب کنید</string>
+    <string name="account_picker_dialog_title">حساب خود را انتخاب کنید</string>
+    <string name="category_dialog_subtitle">دسته بندی مورد نظر خود را انتخاب کنید</string>
+    <string name="save">ذخیره</string>
+    <string name="add_category_name_and_icon">نام و آیکون دسته بندی</string>
+    <string name="add_category_placeholder_exaple">مثال: حمل و نقل</string>
+    <string name="add_category_category_type">نوع دسته بندی</string>
+    <string name="add_category_parent">دسته والد</string>
+    <string name="add_category_color">رنگ دسته بندی</string>
+    <string name="add_category_save_button">ذخیره دسته بندی</string>
+    <string name="account_dialog_subtitle">حساب مورد نظر خود را انتخاب کنید</string>
+    <string name="account_type_cash">نقد</string>
+    <string name="account_type_bank">بانک</string>
+    <string name="account_type_card">کارت</string>
+    <string name="account_type_saving">پس انداز</string>
+    <string name="account_type_digital_wallet">کیف پول دیجیتال</string>
+    <string name="account_type_other">غیره</string>
+    <string name="drop_down_choose_label">انتخاب کنید</string>
+    <string name="onboarding_account_type_message">نوع حسابی را که میخواهید ایجاد کنید انتخاب کنید .\n در صورت نیاز بعداً آن را تغییر دهید.</string>
+    <string name="onboarding_account_type_title">نوع حساب</string>
+    <string name="account">حساب</string>
+    <string name="categories">دسته بندی ها</string>
+    <string name="account_editor_account_name">نام حساب</string>
+    <string name="account_editor_account_type">نوع حساب</string>
+    <string name="account_editor_initial_amount">مقدار اولیه</string>
+    <string name="title_cant_be_empty_error">عنوان نمیتواند خالی باشد</string>
+
+    <string name="error_empty_amount">مبلغ نمی‌تواند خالی باشد</string>
+    <string name="error_select_account">لطفاً یک حساب انتخاب کنید</string>
+    <string name="error_select_category">لطفاً یک دسته‌بندی انتخاب کنید</string>
+    <string name="error_select_to_account">لطفاً حساب مقصد را انتخاب کنید</string>
+    <string name="error_select_from_account">لطفاً حساب مبدأ را انتخاب کنید</string>
+    <string name="error_same_account">حساب مبدأ و مقصد نمیتوانند یکسان باشند</string>
+
+    <string name="from_account">از حساب</string>
+    <string name="to_account">به حساب</string>
+    <string name="amout_input_bottomsheet_bottom_text">تایید و ثبت</string>
+    <string name="edit_account">ویرایش حساب</string>
+    <string name="new_account">حساب جدید</string>
+    <string name="edit_category">ویرایش دسته بندی</string>
+    <string name="new_category">دسته بندی جدید</string>
+    <string name="total_balance">موجودی کل</string>
+    <string name="balance_for_this_month">"مانده این ماه: "</string>
+    <string name="other">سایر</string>
+    <string name="my_accounts">حساب‌های من</string>
+    <string name="view_all">مشاهده همه</string>
+    <string name="recent_transactions">تراکنش‌های اخیر</string>
+    <string name="this_month_expenses">هزینه‌های این ماه</string>
+    <string name="view_full_report">مشاهده گزارش کامل</string>
+    <string name="overall_report">گزارش کلی</string>
+    <string name="all">همه</string>
+    <string name="accounts_list">لیست حساب‌ها</string>
+    <string name="default_text">پیش فرض</string>
+    <string name="highest_balance">بیشترین موجودی</string>
+    <string name="lowest_balance">کمترین موجودی</string>
+    <string name="account_name">نام حساب</string>
+    <string name="create_new_account">افزودن حساب جدید</string>
+    <string name="account_empty_state_title">هنوز حسابی ثبت نکرده‌اید</string>
+    <string name="accounts_empty_state_description">برای مدیریت تراکنش‌ها و بررسی موجودی، اولین حساب بانکی یا کیف پول خود را در این دسته بندی اضافه کنید.</string>
+    <string name="transactions">تراکنش ها</string>
+    <string name="filter_transaction">فیلتر تراکنش‌ها</string>
+    <string name="transaction_type">نوع تراکنش</string>
+    <string name="date_range">بازه زمانی</string>
+    <string name="apply_filter">اعمال فیلتر</string>
+    <string name="invalid_date_range">بازه زمانی معتبر نیست</string>
+    <string name="transaction_detail">جزئیات تراکنش</string>
+    <string name="no_comment">بدون یادداشت</string>
+    <string name="edit_transaction">ویرایش تراکنش</string>
+    <string name="delete">حذف</string>
+    <string name="delete_transaction">حذف تراکنش</string>
+    <string name="delete_transaction_message">آیا مطمئن هستید می خواهید این تراکنش را حذف کنید؟ \n این عمل قابل بازگشت نیست.</string>
+    <string name="week">هفته</string>
+    <string name="month">ماه</string>
+    <string name="year">سال</string>
+    <string name="custom">دلخواه</string>
+    <string name="transactions_empty_state_title">نتیجه ای یافت نشد!</string>
+    <string name="transactions_empty_state_subtitle">با فیلتر های اعمال شده هیچ تراکنشی پیدا نکردیم لطفاً بازه زمانی یا دسته بندی را تغییر دهید.</string>
+    <string name="reports_chart_empty_title">داده ای برای نمودار نیست</string>
+    <string name="reports_chart_empty_subtitle">تراکنش های این بازه زمانی برای رسم نمودار کافی نیست</string>
+    <string name="top_transactions">برترین تراکنش‌ها</string>
+    <string name="reports_top_expenses_empty_title">هزینه‌ای ثبت نشده</string>
+    <string name="reports_top_incomes_empty_title">درآمدی ثبت نشده</string>
+    <string name="reports_top_transactions_empty_subtitle">برای نمایش برترین‌ها، تراکنش جدیدی ثبت کنید.</string>
+    <string name="from_date">از تاریخ</string>
+    <string name="to_date">تا تاریخ</string>
+    <string name="transactions_distribution">توزیع و جزئیات هزینه‌ها</string>
+    <string name="total_expenses">مجموع هزینه ها</string>
+    <string name="of_total">از کل</string>
+    <string name="number_of_transactions">تعداد تراکنش: </string>
+    <string name="daily_average">میانگین روزانه: </string>
+    <string name="period_balance">تراز مالی دوره</string>
+    <string name="setting">تنظیمات</string>
+    <string name="currency">واحد پول</string>
+    <string name="language">زبان</string>
+    <string name="calendar">تقویم</string>
+    <string name="dark_mode">حالت شب</string>
+    <string name="active">فعال</string>
+    <string name="inactive">غیرفعال</string>
+    <string name="general">عمومی</string>
+    <string name="appearance">ظاهر</string>
+    <string name="dashboard_empty_state">تراکنش اخیری ثبت نشده است</string>
+    <string name="select">انتخاب کنید</string>
+    <string name="account_balance">موجودی حساب</string>
+    <string name="account_archive_warning">آیا مطمئن هستید که می خواهید این حساب را آرشیو کنید؟ \n این حساب دیگر برای تراکنش های جدید قابل انتخاب نخواهد بود اما تاریخچه ی مالی آن حفظ می شود.</string>
+    <string name="category_archive_warning">آیا مطمئن هستید که می خواهید این دسته بندی را آرشیو کنید؟ \n این دسته بندی دیگر برای تراکنش های جدید قابل انتخاب نخواهد بود اما تاریخچه ی مالی آن حفظ می شود.</string>
+    <string name="archive">آرشیو</string>
+    <string name="archived">آرشیو شده</string>
+    <string name="archived_accounts">حساب‌های آرشیو شده</string>
+    <string name="archived_categories">دسته بندی های آرشیو شده</string>
+    <string name="new_account_title_place_holder">مثال: حساب جاری…</string>
+    <string name="none">هیچکدام</string>
+
+</resources>
