@@ -447,11 +447,6 @@ Self-taught Android Developer focused on Kotlin and modern Android development.
 - **GitHub:** [@amirr-sharifi](https://github.com/amirr-sharifi)
 - **LinkedIn:** [Amir Sharifi](https://www.linkedin.com/in/amirr-sharifi/)
 
----
-
-## License
-
-No license has been specified for this project.
 
 ---
 
